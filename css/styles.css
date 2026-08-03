@@ -1,0 +1,56 @@
+/* Custom font — replace file names with your own */
+ @font-face 
+{
+    font-family: "AvaliScratch";
+    src: url(/Fonts/avali-scratch.ttf) format(TrueType),
+        url(/Fonts/avali-scratch.otf.woff2) format(woff2),
+        url(/Fonts/avali-scratch.otf) format(otf);
+
+        font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#bgavali
+{
+    background: radial-gradient(circle, #FF7900FF, #FF1493FF, #7F00FFFF);
+}
+
+#txtavali-pink
+{
+    color: rgba(255, 20, 147, 1.0);
+}
+
+
+
+#title
+{
+    color: ivory;
+    text-shadow: 5px, 5px;
+    font-size: 300%;
+    font-weight: 5000;
+}
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: "AvaliScratch";
+}
+
+#task
+{
+    color: ivory;
+    font-size: 200%;
+}
+
+header, main, footer
+{
+    padding: 2rem;
+}
+
+section
+{
+    margin-bottom: 2rem;
+}
+
