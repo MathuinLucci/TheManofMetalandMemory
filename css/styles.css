@@ -10,6 +10,74 @@
     font-style: normal;
 }
 
+.flex
+{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#login
+{
+    display: flex;
+    background-color: rgba(127, 233, 255, 1);
+    max-width: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+    align-self: center;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6)
+}
+
+.box-shadow
+{    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+}
+
+.box-shadow-light
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+}
+
+body
+{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(26, 42, 51, 1);
+}
+
+.login-box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background: rgba(217, 247, 255, 1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+.center
+{
+    text-align: center;
+}
+
+.magenta-box
+{
+    background-color: rgba(255, 50, 0, 0.25);
+    border-radius: 10px;
+}
+
+.gray-box
+{
+    background-color: rgba(50, 50, 50, 0.25);
+    border-radius: 10px;
+}
+
 #bgavali
 {
     background: radial-gradient(circle, #FF7900FF, #FF1493FF, #7F00FFFF);
@@ -19,8 +87,6 @@
 {
     color: rgba(255, 20, 147, 1.0);
 }
-
-
 
 #title
 {
