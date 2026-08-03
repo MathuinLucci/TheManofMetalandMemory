@@ -2,11 +2,10 @@
  @font-face 
 {
     font-family: "AvaliScratch";
-    src: url(/Fonts/avali-scratch.ttf) format(TrueType),
-        url(/Fonts/avali-scratch.otf.woff2) format(woff2),
-        url(/Fonts/avali-scratch.otf) format(otf);
+    src: url('../Fonts/avali-scratch.ttf') format("truetype"),
+    url('../Fonts/avali-scratch.otf.woff2') format("woff2"),
+    url('../Fonts/avali-scratch.otf') format("opentype");
 
-        font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     font-style: normal;
 }
